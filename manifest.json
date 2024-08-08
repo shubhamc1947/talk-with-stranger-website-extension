@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Auto ESC Male Users",
+  "version": "1.0",
+  "description": "Automatically escape male users on Talk with Stranger.",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://talkwithstranger.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon.png"
+  }
+}
