@@ -4,6 +4,9 @@
   "version": "1.0",
   "description": "Automatically escape male users on Talk with Stranger.",
   "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
   "content_scripts": [
     {
       "matches": ["https://talkwithstranger.com/*"],
